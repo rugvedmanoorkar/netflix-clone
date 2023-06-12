@@ -1,0 +1,19 @@
+[debug] [2023-06-12T02:49:25.279Z] ----------------------------------------------------------------------
+[debug] [2023-06-12T02:49:25.287Z] Command:       /opt/homebrew/Cellar/node/20.3.0/bin/node /opt/homebrew/bin/firebase deploy
+[debug] [2023-06-12T02:49:25.287Z] CLI Version:   12.3.1
+[debug] [2023-06-12T02:49:25.287Z] Platform:      darwin
+[debug] [2023-06-12T02:49:25.287Z] Node Version:  v20.3.0
+[debug] [2023-06-12T02:49:25.287Z] Time:          Sun Jun 11 2023 19:49:25 GMT-0700 (Pacific Daylight Time)
+[debug] [2023-06-12T02:49:25.287Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-12T02:49:25.326Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-12T02:49:25.327Z] > authorizing via signed-in user (rugved.manoorkar@gmail.com)
+[debug] [2023-06-12T02:49:25.327Z] [iam] checking project netflix-clone-2-a08fc for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-06-12T02:49:25.327Z] > refreshing access token with scopes: []
+[debug] [2023-06-12T02:49:25.328Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-06-12T02:49:25.328Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-06-12T02:49:25.490Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-06-12T02:49:25.490Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-06-12T02:49:25.506Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflix-clone-2-a08fc:testIamPermissions [none]
+[debug] [2023-06-12T02:49:25.506Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflix-clone-2-a08fc:testIamPermissions x-goog-quota-user=projects/netflix-clone-2-a08fc
+[debug] [2023-06-12T02:49:25.506Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflix-clone-2-a08fc:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
